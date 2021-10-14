@@ -391,6 +391,10 @@ body {
     border-radius: 6px;
 }
 
+.healthyfood-block__choose:hover {
+    background: #34C759;
+}
+
 .healthyfood-choose__title {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -409,13 +413,14 @@ body {
     background: #34C759;
 }
 
+.healthyfood-block__choose:hover .healthyfood-choose__title, 
+.healthyfood-block__choose:hover .healthyfood-choose__text {
+    color: #191919;
+}
 
-/* .healthyfood-choose__line {
-    width: 56px;
-    height: 2px;
-    background: #34C759;
-    margin: 0 0 24px 0;
-} */
+.healthyfood-block__choose:hover .healthyfood-choose__title::after {
+    background-color: #191919;
+}
 
 .healthyfood-choose__text {
     font-family: "Helvetica Neue", sans-serif;
