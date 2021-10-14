@@ -1,118 +1,131 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="stylesheet" href="css/style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Lesson 8</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<header class="header"></header>
-			<main class="main">
-				<!-- 
-				<div class="block">
-					<a href="" class="link">Я ссылка</a>
-				</div>
-				 -->
-				<!-- <a href="" class="button">Я типа кнопка</a> -->
-				<!-- 
-				<div id="window" class="window">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae dolores architecto beatae temporibus accusamus quos amet, minus saepe eum facere maxime! Ullam autem nihil ex reprehenderit quaerat, possimus sit similique?
-				</div>
-				 -->
-				<!-- 
-				<div class="text">
-					<p>
-						1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem iste, veniam commodi alias at ab reprehenderit officia voluptatem consequatur, deserunt sunt, quo impedit quam provident natus praesentium dignissimos cumque?
-					</p>
-					<p>
-						2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem iste, veniam commodi alias at ab reprehenderit officia voluptatem consequatur, deserunt sunt, quo impedit quam provident natus praesentium dignissimos cumque?
-					</p>
-					<p>
-						3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem iste, veniam commodi alias at ab reprehenderit officia voluptatem consequatur, deserunt sunt, quo impedit quam provident natus praesentium dignissimos cumque?
-					</p>
-					<p>
-						4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem iste, veniam commodi alias at ab reprehenderit officia voluptatem consequatur, deserunt sunt, quo impedit quam provident natus praesentium dignissimos cumque?
-					</p>
-				</div>
-				 -->
-				<!-- 
-				<div class="content">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia veritatis accusamus placeat unde blanditiis esse minima voluptatem ea quod neque inventore provident, necessitatibus eos illum error sint. Voluptas, vero.
-				</div>
-				<h1 class="title">Text</h1>
-				<ul class="list">
-					<li>Я пункт списка</li>
-					<li>Я пункт списка Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore natus, nihil laboriosam, rem ea at omnis quo, similique alias earum adipisci voluptatum consequatur. Dolores iure ipsum consequuntur corrupti minus dolore?</li>
-					<li>Я пункт списка</li>
-					<li>Я пункт списка</li>
-					<li>Я пункт списка</li>
-				</ul>
-				<ol class="num-list">
-					<li>Я пункт</li>
-					<li>Я пункт Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat est, ducimus alias, similique voluptates natus excepturi voluptatem vitae necessitatibus cumque fuga ab consectetur esse doloremque explicabo! Harum, nemo possimus.</li>
-					<li>Я пункт</li>
-					<li>Я пункт</li>
-					<li>Я пункт</li>
-				</ol>
-				 -->
-				<!-- 
-				<div class="item">
-					<h1 class="item__title">
-						Я заголовок
-					</h1>
-					<div class="item__text">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ipsum laudantium suscipit architecto laborum eveniet distinctio aperiam earum aliquam sunt, voluptates eligendi quaerat id deserunt consequuntur minima? Enim, quia excepturi?
-					</div>
-					<a href="" class="item__link">Ссылка</a>
-				</div>
-				 -->
-				<div class="items">
-					<div class="items__container">
-						<div class="items__list">
-							<div class="item">
-								<div class="item__image">
-									<img src="img/icons/01.png" alt="">
-								</div>
-								<div class="item__body">
-									<div class="item__title">16k+</div>
-									<div class="item__text">Oil changes</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="item__image">
-									<img src="img/icons/02.png" alt="">
-								</div>
-								<div class="item__body">
-									<div class="item__title">13k+</div>
-									<div class="item__text">Transmission repairs</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="item__image">
-									<img src="img/icons/03.png" alt="">
-								</div>
-								<div class="item__body">
-									<div class="item__title">15k+</div>
-									<div class="item__text">Alignments made</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="item__image">
-									<img src="img/icons/04.png" alt="">
-								</div>
-								<div class="item__body">
-									<div class="item__title">11,500+</div>
-									<div class="item__text">Engines repaired</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-			<footer hidden class="footer"></footer>
-		</div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Lesson 8</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header__title">
+                    УРОК №8 ПСЕВДОКЛАССЫ / ПСЕВДОЭЛЕМЕНТЫ 
+                </h1>
+            </header>
+            <div class="block-one">
+                <a target="_blank" class="block-one__link" href="https://seznam.cz">Я ссылка</a>
+                <p>(наведи на блок)</p>
+            </div>
+            <div class="block-two">
+                <a target="_blank" class="block-two__link" href="https://www.novinky.cz/">Я ссылка</a>
+                <p>(наведи на меня)</p>
+            </div>
+            <div class="block-three">
+                <a target="_blank" class="block-three__button" href="https://www.google.com/">Я ссылка но кнопка</a>
+            </div>
+            <div class="block-for">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nisi id quidem facere fugiat dolor amet quae, cumque eligendi animi exercitationem, autem sapiente, nihil rem accusantium accusamus iure! Eius.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo autem natus obcaecati expedita ipsam ad laborum dolorum dolores? Consequatur voluptate molestias blanditiis ipsa, nam obcaecati? Aliquam ab earum rerum ipsum?
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum cupiditate ipsum quo quibusdam suscipit corrupti enim esse, laborum optio quisquam quam, temporibus tempore asperiores nihil quos eum quia aliquid blanditiis!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus libero cum facere vitae, pariatur ipsa, vero dolorem blanditiis rerum, nulla quaerat doloribus dolores quia eaque nemo recusandae velit? Facere.
+                </p>
+            </div>
+            <div class="block-five">
+                <ul class="block-five__list">
+                    <li>
+                        Ex quisquam dolorem labore rerum enim? In, aliquam? Quos excepturi vel nam velit! Pariatur ullam quasi eum expedita voluptates. Obcaecati, voluptatum laborum.
+                    </li>
+                    <li>
+                        Ex quisquam dolorem labore rerum enim? In, aliquam? Quos excepturi vel nam velit! Pariatur ullam quasi eum expedita voluptates. Obcaecati, voluptatum laborum.
+                    </li>
+                    <li>
+                        Ex quisquam dolorem labore rerum enim? In, aliquam? Quos excepturi vel nam velit! Pariatur ullam quasi eum expedita voluptates. Obcaecati, voluptatum laborum.
+                    </li>
+                    <li>
+                        Ex quisquam dolorem labore rerum enim? In, aliquam? Quos excepturi vel nam velit! Pariatur ullam quasi eum expedita voluptates. Obcaecati, voluptatum laborum.
+                    </li>
+                    <li>
+                        Ex quisquam dolorem labore rerum enim? In, aliquam? Quos excepturi vel nam velit! Pariatur ullam quasi eum expedita voluptates. Obcaecati, voluptatum laborum.
+                    </li>
+                </ul>
+            </div>
+            <div class="block-six">
+                <ol class="block-six__list">
+                    <li>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nihil nemo delectus recusandae eaque sint eum voluptatibus eligendi architecto dolorum! Tenetur consectetur asperiores voluptate facere ad repellat qui ducimus in.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nihil nemo delectus recusandae eaque sint eum
+                        voluptatibus eligendi architecto dolorum! Tenetur consectetur asperiores voluptate facere ad repellat qui ducimus
+                        in.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nihil nemo delectus recusandae eaque sint eum
+                        voluptatibus eligendi architecto dolorum! Tenetur consectetur asperiores voluptate facere ad repellat qui ducimus
+                        in.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nihil nemo delectus recusandae eaque sint eum
+                        voluptatibus eligendi architecto dolorum! Tenetur consectetur asperiores voluptate facere ad repellat qui ducimus
+                        in.
+                    </li>
+                </ol>
+            </div>
+            <div class="block-doggie">
+                <div class="block__subtitle">
+                    OUR PROMISE TO YOU
+                </div>
+                <h1 class="block__title">
+                    Sed perspiciatis omnis iste natus
+                </h1>
+                <div class="container">
+                    <div class="container-content lovecare">
+                        <h2 class="container-content__title">
+                            24/7 Love & Care
+                        </h2>
+                        <p class="container-content__text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                        </p>
+                    </div>
+                    <div class="container-content veterinarian">
+                        <h2 class="container-content__title">
+                            On-site Veterinarian
+                        </h2>
+                        <p class="container-content__text">
+                            Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.
+                        </p>
+                    </div>
+                    <div class="container-content cameras">
+                        <h2 class="container-content__title">
+                            Live-stream Cameras
+                        </h2>
+                        <p class="container-content__text">
+                            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur illum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="block-healthyfood">
+                <div class="healthyfood-block__choose">
+                    <h2 class="healthyfood-choose__title">
+                        Choose how often
+                    </h2>
+                    <!-- <div class="healthyfood-choose__line"></div> -->
+                    <p class="healthyfood-choose__text">
+                        Our team of chefs do the prep work - no more chopping, measuring, or sink full
+                        of dishes!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
